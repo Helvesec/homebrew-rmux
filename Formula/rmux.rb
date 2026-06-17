@@ -5,22 +5,22 @@
 class Rmux < Formula
   desc "Local terminal multiplexer with a tmux-style CLI and daemon runtime"
   homepage "https://rmux.io"
-  version "0.6.0"
-  url "https://github.com/Helvesec/rmux/releases/download/v0.6.0/rmux-0.6.0-macos-aarch64.tar.gz"
-  sha256 "731d9ade9f76ed75e3df5ba7887b3640d0f712446555d6a67d53923a649476cd"
+  version "0.6.1"
+  url "https://github.com/Helvesec/rmux/releases/download/v0.6.1/rmux-0.6.1-macos-aarch64.tar.gz"
+  sha256 "098865b968a12d87fe5d25d877e69dfa77d4452b1776e8dd54c334e4152cc1e0"
   license any_of: ["MIT", "Apache-2.0"]
 
   depends_on :macos
 
   on_macos do
     on_arm do
-      url "https://github.com/Helvesec/rmux/releases/download/v0.6.0/rmux-0.6.0-macos-aarch64.tar.gz"
-      sha256 "731d9ade9f76ed75e3df5ba7887b3640d0f712446555d6a67d53923a649476cd"
+      url "https://github.com/Helvesec/rmux/releases/download/v0.6.1/rmux-0.6.1-macos-aarch64.tar.gz"
+      sha256 "098865b968a12d87fe5d25d877e69dfa77d4452b1776e8dd54c334e4152cc1e0"
     end
 
     on_intel do
-      url "https://github.com/Helvesec/rmux/releases/download/v0.6.0/rmux-0.6.0-macos-x86_64.tar.gz"
-      sha256 "e5ea3a07836b33dd52685792489fb03c01db34b0d7a0db6cc2a9badb89e172c9"
+      url "https://github.com/Helvesec/rmux/releases/download/v0.6.1/rmux-0.6.1-macos-x86_64.tar.gz"
+      sha256 "09dc8baceb900bbd161d7841d2436e08a643afe0734113402a8fa8d7f6466f33"
     end
   end
 
